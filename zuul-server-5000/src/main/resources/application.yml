@@ -12,7 +12,7 @@ logging:
   level:
     com.example.zuulaserver5000: debug
   file:
-    name: log/zuul-server-5000.log
+    name: /log/zuul-server-5000.log
 
 #配置网关策略
 zuul:

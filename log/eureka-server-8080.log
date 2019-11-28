@@ -59,3 +59,54 @@
 2019-11-28 13:11:55.618  INFO 11076 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2019-11-28 13:12:29.207  INFO 11076 --- [http-nio-8080-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 with status DOWN (replication=false)
 2019-11-28 13:12:29.215  INFO 11076 --- [http-nio-8080-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 (replication=false)
+2019-11-28 13:46:49.048  INFO 9412 --- [main] c.e.e.EurekaServer8080Application        : No active profile set, falling back to default profiles: default
+2019-11-28 13:46:49.660  WARN 9412 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 13:46:49.770  INFO 9412 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ad522491-c12a-31cb-bdc7-e8b2b0a4e508
+2019-11-28 13:46:49.878  INFO 9412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$65be9963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 13:46:50.042  INFO 9412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-28 13:46:50.049  INFO 9412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-28 13:46:50.050  INFO 9412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 13:46:50.156  INFO 9412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-28 13:46:50.157  INFO 9412 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1097 ms
+2019-11-28 13:46:50.285  WARN 9412 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:46:50.285  INFO 9412 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:46:50.292  INFO 9412 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4613311f
+2019-11-28 13:46:51.827  INFO 9412 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:46:51.989  INFO 9412 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-11-28 13:46:52.044  INFO 9412 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-28 13:46:52.045  INFO 9412 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-28 13:46:52.128  INFO 9412 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-28 13:46:52.128  INFO 9412 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-28 13:46:52.392  WARN 9412 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:46:52.393  INFO 9412 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:46:52.518  INFO 9412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:46:54.088  INFO 9412 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:46:54.112  WARN 9412 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 13:46:54.159  INFO 9412 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 13:46:54.180  INFO 9412 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 13:46:54.180  INFO 9412 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 13:46:54.185  INFO 9412 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574920014184 with initial instances count: 0
+2019-11-28 13:46:54.214  INFO 9412 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 13:46:54.217  WARN 9412 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 13:46:54.230  INFO 9412 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 13:46:54.231  INFO 9412 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 13:46:54.243  INFO 9412 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 13:46:54.303  INFO 9412 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER-8080 with eureka with status UP
+2019-11-28 13:46:54.305  INFO 9412 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 13:46:54.306  INFO 9412 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 13:46:54.307  INFO 9412 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 13:46:54.324  INFO 9412 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 13:46:54.324  INFO 9412 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 13:46:54.325  INFO 9412 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 13:46:54.325  INFO 9412 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 13:46:54.325  INFO 9412 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 13:46:54.333  INFO 9412 --- [Thread-27] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 13:46:54.350  INFO 9412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-28 13:46:54.351  INFO 9412 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2019-11-28 13:46:55.675  INFO 9412 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:46:55.677  INFO 9412 --- [main] c.e.e.EurekaServer8080Application        : Started EurekaServer8080Application in 9.985 seconds (JVM running for 10.825)
+2019-11-28 13:46:56.210  INFO 9412 --- [RMI TCP Connection(2)-192.168.159.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 13:46:56.210  INFO 9412 --- [RMI TCP Connection(2)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-28 13:46:56.216  INFO 9412 --- [RMI TCP Connection(2)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-11-28 13:47:54.326  INFO 9412 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-28 13:48:54.326  INFO 9412 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms

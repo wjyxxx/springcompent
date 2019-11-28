@@ -6,3 +6,5 @@ spring:
       label: master
       uri: http://hostlocal:4000
       profile: test
+  profiles:
+    active: test,dev

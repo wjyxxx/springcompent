@@ -14,10 +14,8 @@ spring:
           default-label: master
           username: wjyxxx
           password: wjy0217xxx
-  profiles:
-    active: test,dev
 logging:
   level:
     com.example.configserver4000: debug
   file:
-    name: log/config-server-4000.log
+    name: /log/config-server-4000.log

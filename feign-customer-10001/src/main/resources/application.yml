@@ -12,4 +12,4 @@ logging:
   level:
     com.example.feigncustomer10001: debug
   file:
-    name: log/feign-customer-10001.log
+    name: /log/feign-customer-10001.log
