@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25075df8-93f6-4ec3-a2c3-fa5042e7e64f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml--" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server-4000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-4000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server-4000/src/test/java/com/example/configserver4000/ConfigServer4000ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-8080/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-8080/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-customer-10001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-provider-9000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-provider-9000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/config-server-4000.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/config-server-4000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-8080/src/test/java/com/example/eurekaserver8080/EurekaServer8080ApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/eureka-server-8080.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/eureka-server-8080.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server-5000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server-5000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/zuul-server-5000-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +38,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,21 +93,26 @@
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10000Application.java" />
         <option value="$PROJECT_DIR$/feign-provider-9000/src/main/java/com/example/feignprovider9000/FeignProvider9000Application.java" />
         <option value="$PROJECT_DIR$/feign-provider-9000/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/feign-customer-10001/pom.xml" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java" />
         <option value="$PROJECT_DIR$/eureka-server-8080/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zuul-server-5000/src/main/java/com/example/zuulserver5000/ZuulServer5000Application.java" />
-        <option value="$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java" />
         <option value="$PROJECT_DIR$/config-file/eureka-server-8080-dev.yml" />
-        <option value="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" />
-        <option value="$PROJECT_DIR$/eureka-server-8080/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign-provider-9000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" />
+        <option value="$PROJECT_DIR$/config-file/zuul-server-5000-dev.yml" />
+        <option value="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/zuul-server-5000/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-server-4000/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java" />
+        <option value="$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java" />
+        <option value="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" />
+        <option value="$PROJECT_DIR$/eureka-server-8080/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml" />
       </list>
     </option>
@@ -88,7 +134,26 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server-8080" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server-8080" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-server-5000" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-server-5000" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -111,6 +176,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,10 +188,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -134,15 +200,20 @@
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-server-5000/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\document\idea_workspace\springcompent\zuul-server-5000\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer8080Application">
+  <component name="RunManager" selected="Spring Boot.ZuulServer5000Application">
     <configuration name="ConfigServer4000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server-4000" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configserver4000.ConfigServer4000Application" />
@@ -248,6 +319,10 @@
       <workItem from="1574901933804" duration="667000" />
       <workItem from="1574902682878" duration="1685000" />
       <workItem from="1574917317933" duration="2967000" />
+      <workItem from="1574920436052" duration="1125000" />
+      <workItem from="1574924994339" duration="386000" />
+      <workItem from="1574928867793" duration="776000" />
+      <workItem from="1574929900291" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="first commit code">
       <created>1574918308413</created>
@@ -263,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574919895395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thrid commit code">
+      <created>1574920480660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574920480660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10802000" />
+    <option name="totallyTimeSpent" value="17006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,7 +364,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.25141472" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27405012" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -293,7 +375,7 @@
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4995958" weight="0.124333926" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4995958" visible="true" weight="0.124333926" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -323,7 +405,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit code" />
     <MESSAGE value="second commit code" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit code" />
+    <MESSAGE value="thrid commit code" />
+    <option name="LAST_COMMIT_MESSAGE" value="thrid commit code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java">
@@ -350,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -391,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/java/com/example/zuulserver5000/ZuulServer5000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/feign-customer-10001.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1034" />
@@ -417,40 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/config-server-4000.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/eureka-server-8080.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -465,31 +500,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/eureka-server-8080/log/eureka-server-8080.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="-484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/eureka-server-8080.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/config-server-4000.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/resources/application.yml--">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="5" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/zuul-server-5000-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/zuul-server-5000-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server-5000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="40" selection-start-line="20" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/java/com/example/zuulserver5000/ZuulServer5000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="-165">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/config-server-4000/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="-398">
+          <caret line="55" column="24" selection-start-line="45" selection-start-column="7" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/java/com/example/configserver4000/ConfigServer4000Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-8080/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="-208">
+          <caret line="26" selection-start-line="26" selection-start-column="4" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/java/com/example/eurekaserver8080/EurekaServer8080Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -521,6 +651,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -556,7 +687,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|zuul-server-5000</last-edited>
+          <last-edited>config-server-4000</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

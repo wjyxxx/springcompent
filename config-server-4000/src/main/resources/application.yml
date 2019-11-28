@@ -2,15 +2,15 @@
 server:
   port: 4000
 spring:
-  application:
-    name: config-server-4000
+#  application:
+#    name: config-server-4000
   #分布式配置
   cloud:
     config:
       server:
         git:
           uri: https://github.com/wjyxxx/springcompent.git
-          search-paths: config-file
+          search-paths: /config-file
           default-label: master
           username: wjyxxx
           password: wjy0217xxx
@@ -19,3 +19,7 @@ logging:
     com.example.configserver4000: debug
   file:
     name: /log/config-server-4000.log
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8080

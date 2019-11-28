@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-server-8080
+    name: zuul-server-5000
   cloud:
     config:
       label: master

@@ -12,5 +12,7 @@
         <module>eureka-server-8080</module>
         <module>feign-customer-10001</module>
         <module>feign-provider-9000</module>
+        <module>zuul-server-5000</module>
+        <module>config-server-4000</module>
     </modules>
 </project>
