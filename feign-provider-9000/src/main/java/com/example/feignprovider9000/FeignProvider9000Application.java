@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * feign提供者,eureka发现者
  */
-@Configuration
+//@Configuration
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableEurekaClient
