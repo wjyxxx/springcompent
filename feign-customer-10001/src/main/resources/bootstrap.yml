@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-server-8080
+    name: feign-customer-10001
   cloud:
     config:
       label: master

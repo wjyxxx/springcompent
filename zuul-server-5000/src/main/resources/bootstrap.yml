@@ -8,6 +8,5 @@ spring:
       profile: test
       discovery:
         enabled: true
-      name: config-server-4000
   profiles:
     active: test,dev
