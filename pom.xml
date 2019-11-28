@@ -14,5 +14,7 @@
         <module>feign-provider-9000</module>
         <module>zuul-server-5000</module>
         <module>config-server-4000</module>
+        <module>feign-provider-9001</module>
+        <module>feign-provider-9002</module>
     </modules>
 </project>

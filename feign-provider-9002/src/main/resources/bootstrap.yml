@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: feign-provider-9002
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:4000
+      profile: test
+      discovery:
+        enabled: true
+  profiles:
+    active: test,dev

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="feign-customer-10001" />
-        <module name="feign-provider-9000" />
-        <module name="zuul-server-5000" />
         <module name="eureka-server-8080" />
+        <module name="feign-provider-9001" />
+        <module name="feign-provider-9000" />
         <module name="config-server-4000" />
+        <module name="feign-provider-9002" />
+        <module name="zuul-server-5000" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +22,8 @@
       <module name="eureka-server-8080" options="-parameters" />
       <module name="feign-customer-10001" options="-parameters" />
       <module name="feign-provider-9000" options="-parameters" />
+      <module name="feign-provider-9001" options="-parameters" />
+      <module name="feign-provider-9002" options="-parameters" />
       <module name="zuul-server-5000" options="-parameters" />
     </option>
   </component>

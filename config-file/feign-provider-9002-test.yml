@@ -1,0 +1,15 @@
+#feign
+server:
+  port: 9002
+spring:
+  application:
+    name: feign-provider-9002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+logging:
+  level:
+    com.example.feignprovider9000: debug
+  file:
+    name: /log/feign-provider-9002.log
