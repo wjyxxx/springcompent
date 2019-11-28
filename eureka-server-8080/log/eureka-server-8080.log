@@ -1,0 +1,185 @@
+2019-11-28 09:17:22.862  INFO 15004 --- [main] c.e.e.EurekaServer8080ApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-28 09:17:23.868  WARN 15004 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 09:17:24.181  INFO 15004 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2e4c0d7-e5ae-3404-9ffc-5fba55431621
+2019-11-28 09:17:24.806  INFO 15004 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deefade5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 09:17:25.128  WARN 15004 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:17:25.128  INFO 15004 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:17:25.143  WARN 15004 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:17:25.143  INFO 15004 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:17:25.954  INFO 15004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:17:26.288  INFO 13832 --- [main] c.e.e.EurekaServer8080ApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-28 09:17:27.295  WARN 13832 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 09:17:27.482  INFO 13832 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2e4c0d7-e5ae-3404-9ffc-5fba55431621
+2019-11-28 09:17:27.834  INFO 13832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deefade5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 09:17:28.042  INFO 15004 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:17:28.285  WARN 13832 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:17:28.285  INFO 13832 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:17:28.301  WARN 13832 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:17:28.301  INFO 13832 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:17:29.961  INFO 13832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:17:31.347  INFO 15004 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:17:31.457  WARN 15004 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 09:17:31.745  INFO 15004 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 09:17:31.785  INFO 15004 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 09:17:31.785  INFO 15004 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 09:17:31.800  INFO 15004 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574903851800 with initial instances count: 0
+2019-11-28 09:17:31.878  INFO 15004 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 09:17:31.878  WARN 15004 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 09:17:31.894  INFO 13832 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:17:31.977  INFO 15004 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 09:17:31.977  INFO 15004 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 09:17:32.337  INFO 15004 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 09:17:32.477  INFO 15004 --- [main] c.e.e.EurekaServer8080ApplicationTests   : Started EurekaServer8080ApplicationTests in 14.431 seconds (JVM running for 16.089)
+2019-11-28 09:17:32.680  INFO 15004 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 09:17:32.899  INFO 15004 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 09:17:32.915  INFO 15004 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 09:17:32.946  INFO 15004 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 09:17:32.946  INFO 15004 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 09:17:32.946  INFO 15004 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 09:17:32.962  INFO 15004 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 09:17:32.962  INFO 15004 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 09:17:32.977  INFO 15004 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 09:17:33.306  INFO 15004 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER-8080 with eureka with status DOWN
+2019-11-28 09:17:33.322  INFO 15004 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-11-28 09:17:33.322  INFO 15004 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-11-28 09:17:33.337  INFO 15004 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:17:33.353  INFO 15004 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-28 09:17:33.353  INFO 15004 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-28 09:17:34.757  INFO 13832 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:17:35.035  WARN 13832 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 09:17:35.583  INFO 13832 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 09:17:35.670  INFO 13832 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 09:17:35.670  INFO 13832 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 09:17:35.701  INFO 13832 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574903855701 with initial instances count: 0
+2019-11-28 09:17:35.810  INFO 13832 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 09:17:35.810  WARN 13832 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 09:17:35.918  INFO 13832 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 09:17:35.918  INFO 13832 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 09:17:36.158  INFO 13832 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 09:17:36.259  INFO 13832 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 09:17:36.261  INFO 13832 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 09:17:36.262  INFO 13832 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 09:17:36.282  INFO 13832 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 09:17:36.282  INFO 13832 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 09:17:36.282  INFO 13832 --- [main] c.e.e.EurekaServer8080ApplicationTests   : Started EurekaServer8080ApplicationTests in 14.575 seconds (JVM running for 16.031)
+2019-11-28 09:17:36.282  INFO 13832 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 09:17:36.282  INFO 13832 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 09:17:36.282  INFO 13832 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 09:17:36.297  INFO 13832 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 09:17:36.938  INFO 13832 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER-8080 with eureka with status DOWN
+2019-11-28 09:17:36.938  INFO 13832 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-11-28 09:17:36.954  INFO 13832 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-11-28 09:17:36.954  INFO 13832 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:17:36.954  INFO 13832 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-28 09:17:36.954  INFO 13832 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-28 09:19:12.260  INFO 16304 --- [main] c.e.e.EurekaServer8080ApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-28 09:19:13.093  WARN 16304 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 09:19:13.296  INFO 16304 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2e4c0d7-e5ae-3404-9ffc-5fba55431621
+2019-11-28 09:19:13.684  INFO 16304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deefade5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 09:19:13.976  WARN 16304 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:19:13.976  INFO 16304 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:19:13.991  WARN 16304 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 09:19:13.991  INFO 16304 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 09:19:14.755  INFO 16304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:19:16.705  INFO 16304 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:19:18.874  INFO 16304 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 09:19:18.977  WARN 16304 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 09:19:19.226  INFO 16304 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 09:19:19.273  INFO 16304 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 09:19:19.273  INFO 16304 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 09:19:19.289  INFO 16304 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574903959289 with initial instances count: 0
+2019-11-28 09:19:19.351  INFO 16304 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 09:19:19.351  WARN 16304 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 09:19:19.398  INFO 16304 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 09:19:19.398  INFO 16304 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 09:19:19.619  INFO 16304 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 09:19:19.697  INFO 16304 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 09:19:19.697  INFO 16304 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 09:19:19.697  INFO 16304 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 09:19:19.728  INFO 16304 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 09:19:19.728  INFO 16304 --- [main] c.e.e.EurekaServer8080ApplicationTests   : Started EurekaServer8080ApplicationTests in 10.999 seconds (JVM running for 11.961)
+2019-11-28 09:19:19.728  INFO 16304 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 09:19:19.728  INFO 16304 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 09:19:19.728  INFO 16304 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 09:19:19.728  INFO 16304 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 09:19:19.744  INFO 16304 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 09:19:19.999  INFO 16304 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER-8080 with eureka with status DOWN
+2019-11-28 09:19:19.999  INFO 16304 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-11-28 09:19:19.999  INFO 16304 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-11-28 09:19:20.014  INFO 16304 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 09:19:20.014  INFO 16304 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-28 09:19:20.014  INFO 16304 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-28 13:08:33.279  INFO 13192 --- [main] c.e.e.EurekaServer8080ApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-28 13:08:34.251  WARN 13192 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 13:08:34.600  INFO 13192 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2e4c0d7-e5ae-3404-9ffc-5fba55431621
+2019-11-28 13:08:35.065  INFO 13192 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deefade5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 13:08:35.362  WARN 13192 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:08:35.362  INFO 13192 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:08:35.372  WARN 13192 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:08:35.372  INFO 13192 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:08:36.244  INFO 13192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:08:38.182  INFO 13192 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:08:40.358  INFO 13192 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:08:40.526  WARN 13192 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 13:08:40.861  INFO 13192 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 13:08:40.922  INFO 13192 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 13:08:40.926  INFO 13192 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 13:08:40.941  INFO 13192 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574917720938 with initial instances count: 0
+2019-11-28 13:08:41.030  INFO 13192 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 13:08:41.032  WARN 13192 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 13:08:41.091  INFO 13192 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 13:08:41.092  INFO 13192 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 13:08:41.274  INFO 13192 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 13:08:41.334  INFO 13192 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 13:08:41.335  INFO 13192 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 13:08:41.335  INFO 13192 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 13:08:41.353  INFO 13192 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 13:08:41.354  INFO 13192 --- [main] c.e.e.EurekaServer8080ApplicationTests   : Started EurekaServer8080ApplicationTests in 11.824 seconds (JVM running for 13.718)
+2019-11-28 13:08:41.354  INFO 13192 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 13:08:41.355  INFO 13192 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 13:08:41.355  INFO 13192 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 13:08:41.356  INFO 13192 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 13:08:41.373  INFO 13192 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 13:08:41.728  INFO 13192 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER-8080 with eureka with status DOWN
+2019-11-28 13:08:41.732  INFO 13192 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-11-28 13:08:41.734  INFO 13192 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-11-28 13:08:41.736  INFO 13192 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:08:41.739  INFO 13192 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-28 13:08:41.740  INFO 13192 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-28 13:11:45.408  INFO 2344 --- [main] c.e.e.EurekaServer8080ApplicationTests   : No active profile set, falling back to default profiles: default
+2019-11-28 13:11:46.331  WARN 2344 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 13:11:46.550  INFO 2344 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b2e4c0d7-e5ae-3404-9ffc-5fba55431621
+2019-11-28 13:11:47.010  INFO 2344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$deefade5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 13:11:47.286  WARN 2344 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:11:47.286  INFO 2344 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:11:47.296  WARN 2344 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:11:47.297  INFO 2344 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:11:48.352  INFO 2344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:11:50.879  INFO 2344 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:11:52.962  INFO 2344 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:11:53.076  WARN 2344 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 13:11:53.370  INFO 2344 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 13:11:53.412  INFO 2344 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 13:11:53.414  INFO 2344 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 13:11:53.436  INFO 2344 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574917913434 with initial instances count: 0
+2019-11-28 13:11:53.519  INFO 2344 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 13:11:53.522  WARN 2344 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 13:11:53.563  INFO 2344 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 13:11:53.564  INFO 2344 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 13:11:53.733  INFO 2344 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 13:11:53.798  INFO 2344 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 13:11:53.800  INFO 2344 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 13:11:53.801  INFO 2344 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 13:11:53.819  INFO 2344 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 13:11:53.821  INFO 2344 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 13:11:53.821  INFO 2344 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 13:11:53.821  INFO 2344 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 13:11:53.822  INFO 2344 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 13:11:53.823  INFO 2344 --- [main] c.e.e.EurekaServer8080ApplicationTests   : Started EurekaServer8080ApplicationTests in 11.956 seconds (JVM running for 12.952)
+2019-11-28 13:11:53.837  INFO 2344 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 13:11:54.232  INFO 2344 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER-8080 with eureka with status DOWN
+2019-11-28 13:11:54.236  INFO 2344 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-11-28 13:11:54.240  INFO 2344 --- [SpringContextShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-11-28 13:11:54.245  INFO 2344 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:11:54.254  INFO 2344 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-28 13:11:54.255  INFO 2344 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

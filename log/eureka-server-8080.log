@@ -1,0 +1,61 @@
+2019-11-28 13:08:50.059  INFO 11076 --- [main] c.e.e.EurekaServer8080Application        : No active profile set, falling back to default profiles: default
+2019-11-28 13:08:50.664  WARN 11076 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-28 13:08:50.784  INFO 11076 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fd59049b-98f6-375b-9677-e6f127fcdd8a
+2019-11-28 13:08:50.900  INFO 11076 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c9884dde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-28 13:08:51.088  INFO 11076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-28 13:08:51.096  INFO 11076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-28 13:08:51.096  INFO 11076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-28 13:08:51.382  INFO 11076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-28 13:08:51.382  INFO 11076 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1312 ms
+2019-11-28 13:08:51.442  WARN 11076 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:08:51.443  INFO 11076 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:08:51.450  INFO 11076 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@288ca5f0
+2019-11-28 13:08:53.053  INFO 11076 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:08:53.278  INFO 11076 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-11-28 13:08:53.329  INFO 11076 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-28 13:08:53.330  INFO 11076 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-28 13:08:53.409  INFO 11076 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-28 13:08:53.410  INFO 11076 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-28 13:08:53.650  WARN 11076 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-28 13:08:53.650  INFO 11076 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-28 13:08:53.767  INFO 11076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-28 13:08:55.351  INFO 11076 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:08:55.394  WARN 11076 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-28 13:08:55.450  INFO 11076 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-28 13:08:55.471  INFO 11076 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-28 13:08:55.471  INFO 11076 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-28 13:08:55.477  INFO 11076 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574917735476 with initial instances count: 0
+2019-11-28 13:08:55.504  INFO 11076 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-28 13:08:55.507  WARN 11076 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-28 13:08:55.521  INFO 11076 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-28 13:08:55.522  INFO 11076 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-28 13:08:55.535  INFO 11076 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-28 13:08:55.598  INFO 11076 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER-8080 with eureka with status UP
+2019-11-28 13:08:55.600  INFO 11076 --- [Thread-28] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-28 13:08:55.600  INFO 11076 --- [Thread-28] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-28 13:08:55.601  INFO 11076 --- [Thread-28] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-28 13:08:55.615  INFO 11076 --- [Thread-28] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-28 13:08:55.616  INFO 11076 --- [Thread-28] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-28 13:08:55.616  INFO 11076 --- [Thread-28] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-28 13:08:55.616  INFO 11076 --- [Thread-28] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-28 13:08:55.616  INFO 11076 --- [Thread-28] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-28 13:08:55.626  INFO 11076 --- [Thread-28] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-28 13:08:55.649  INFO 11076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-28 13:08:55.650  INFO 11076 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2019-11-28 13:08:57.030  INFO 11076 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-28 13:08:57.032  INFO 11076 --- [main] c.e.e.EurekaServer8080Application        : Started EurekaServer8080Application in 10.472 seconds (JVM running for 11.586)
+2019-11-28 13:08:57.616  INFO 11076 --- [RMI TCP Connection(1)-192.168.159.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-28 13:08:57.616  INFO 11076 --- [RMI TCP Connection(1)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-28 13:08:57.627  INFO 11076 --- [RMI TCP Connection(1)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-11-28 13:09:24.461  INFO 11076 --- [http-nio-8080-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 with status DOWN (replication=false)
+2019-11-28 13:09:24.473  INFO 11076 --- [http-nio-8080-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 (replication=false)
+2019-11-28 13:09:55.618  INFO 11076 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-28 13:10:13.855  INFO 11076 --- [http-nio-8080-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 with status DOWN (replication=false)
+2019-11-28 13:10:13.865  INFO 11076 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 (replication=false)
+2019-11-28 13:10:26.069  INFO 11076 --- [http-nio-8080-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-28 13:10:51.740  INFO 11076 --- [http-nio-8080-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-PROVIDER-9000/localhost:feign-provider-9000:9000 with status UP (replication=false)
+2019-11-28 13:10:55.618  INFO 11076 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-28 13:11:27.242  INFO 11076 --- [http-nio-8080-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-28 13:11:55.618  INFO 11076 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-28 13:12:29.207  INFO 11076 --- [http-nio-8080-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 with status DOWN (replication=false)
+2019-11-28 13:12:29.215  INFO 11076 --- [http-nio-8080-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:-1 (replication=false)

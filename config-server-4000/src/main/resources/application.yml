@@ -1,0 +1,13 @@
+#config-server
+server:
+  port: 4000
+spring:
+  application:
+    name: config-server-4000
+  #分布式配置
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+

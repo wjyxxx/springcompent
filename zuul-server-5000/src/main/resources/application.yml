@@ -1,0 +1,22 @@
+#zuul-server
+server:
+  port: 5000
+spring:
+  application:
+    name: zuul-server-5000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+logging:
+  level:
+    eurekaserver8080: debug
+  file:
+    name: log/zuul-server-5000.log
+
+#配置网关策略
+zuul:
+  routes:
+    feign-customer-10001:
+      path: /api/**
+      serviceId: feign-customer-10001

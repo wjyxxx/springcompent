@@ -1,0 +1,15 @@
+#feign
+server:
+  port: 10001
+spring:
+  application:
+    name: feign-customer-10001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+logging:
+  level:
+    eurekaserver8080: debug
+  file:
+    name: log/feign-customer-10001.log
