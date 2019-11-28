@@ -1,0 +1,14 @@
+#eureka-server
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+    fetch-registry: false
+    register-with-eureka: false
+logging:
+  level:
+    eurekaserver8080: debug
+  file:
+    name: log/eureka-server-8080.log

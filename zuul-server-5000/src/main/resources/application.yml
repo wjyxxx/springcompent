@@ -10,7 +10,7 @@ eureka:
       defaultZone: http://localhost:8080/eureka
 logging:
   level:
-    eurekaserver8080: debug
+    com.example.zuulaserver5000: debug
   file:
     name: log/zuul-server-5000.log
 

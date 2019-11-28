@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka-server-8080
+  cloud:
+    config:
+      label: master
+      uri: http://hostlocal:4000
+      profile: test
