@@ -6,7 +6,7 @@ spring:
       label: master
       uri: http://localhost:4000
       profile: test
-      discovery:
-        enabled: true
+#      discovery:
+#        enabled: true
   profiles:
     active: test,dev

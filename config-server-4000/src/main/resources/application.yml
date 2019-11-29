@@ -20,7 +20,7 @@ logging:
     com.example.configserver4000: debug
   file:
     name: /log/config-server-4000.log
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080
