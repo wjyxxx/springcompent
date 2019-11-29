@@ -4,10 +4,10 @@ server:
 spring:
   application:
     name: zuul-server-5000
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8080/eureka
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8080/eureka
 logging:
   level:
     com.example.zuulaserver5000: debug

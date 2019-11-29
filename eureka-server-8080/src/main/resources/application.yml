@@ -14,4 +14,4 @@ logging:
   level:
     eurekaserver8080: debug
   file:
-    name: log/eureka-server-8080.log
+    name: /log/eureka-server-8080.log
