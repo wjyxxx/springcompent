@@ -186,3 +186,127 @@
 2019-11-30 15:37:56.810  INFO 12300 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
 2019-11-30 15:38:56.498  WARN 12300 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
 2019-11-30 15:38:56.818  INFO 12300 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2019-11-30 15:39:56.819  INFO 12300 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-11-30 15:41:50.813  INFO 13892 --- [main] c.e.e.EurekaServer8080Application        : No active profile set, falling back to default profiles: default
+2019-11-30 15:41:51.340  WARN 13892 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 15:41:51.450  INFO 13892 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fd59049b-98f6-375b-9677-e6f127fcdd8a
+2019-11-30 15:41:51.575  INFO 13892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c96d6677] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 15:41:51.731  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-30 15:41:51.731  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 15:41:51.731  INFO 13892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 15:41:51.824  INFO 13892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 15:41:51.840  INFO 13892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1012 ms
+2019-11-30 15:41:51.887  WARN 13892 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 15:41:51.887  INFO 13892 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 15:41:51.903  INFO 13892 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@124ac145
+2019-11-30 15:41:53.445  INFO 13892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-30 15:41:53.660  INFO 13892 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-11-30 15:41:53.723  INFO 13892 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 15:41:53.723  INFO 13892 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 15:41:53.804  INFO 13892 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 15:41:53.804  INFO 13892 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 15:41:54.054  WARN 13892 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 15:41:54.054  INFO 13892 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 15:41:54.155  INFO 13892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 15:41:55.742  INFO 13892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-30 15:41:55.757  WARN 13892 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 15:41:55.804  INFO 13892 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 15:41:55.839  INFO 13892 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 15:41:55.839  INFO 13892 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-11-30 15:41:55.844  INFO 13892 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575099715843 with initial instances count: 0
+2019-11-30 15:41:55.862  INFO 13892 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-11-30 15:41:55.862  WARN 13892 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-30 15:41:55.877  INFO 13892 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-11-30 15:41:55.877  INFO 13892 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-11-30 15:41:55.893  INFO 13892 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 15:41:55.955  INFO 13892 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER-8080 with eureka with status UP
+2019-11-30 15:41:55.955  INFO 13892 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-11-30 15:41:55.955  INFO 13892 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-11-30 15:41:55.955  INFO 13892 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-11-30 15:41:55.971  INFO 13892 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-11-30 15:41:55.987  INFO 13892 --- [Thread-27] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-11-30 15:41:55.987  INFO 13892 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-11-30 15:41:55.987  INFO 13892 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-11-30 15:41:55.987  INFO 13892 --- [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-11-30 15:41:55.987  INFO 13892 --- [Thread-27] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-11-30 15:41:56.002  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-30 15:41:56.002  INFO 13892 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2019-11-30 15:41:57.354  INFO 13892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-11-30 15:41:57.354  INFO 13892 --- [main] c.e.e.EurekaServer8080Application        : Started EurekaServer8080Application in 9.774 seconds (JVM running for 10.467)
+2019-11-30 15:41:57.638  INFO 13892 --- [RMI TCP Connection(1)-192.168.159.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 15:41:57.638  INFO 13892 --- [RMI TCP Connection(1)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 15:41:57.654  INFO 13892 --- [RMI TCP Connection(1)-192.168.159.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-11-30 15:42:55.994  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-30 15:43:56.008  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2019-11-30 15:44:56.012  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2019-11-30 15:45:56.019  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2019-11-30 15:46:56.027  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2019-11-30 15:47:56.033  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2019-11-30 15:48:56.044  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-11-30 15:49:23.299  INFO 13892 --- [http-nio-8080-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 15:49:56.047  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2019-11-30 15:50:15.816  INFO 13892 --- [http-nio-8080-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 15:50:16.350  INFO 13892 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 15:50:19.398  INFO 13892 --- [http-nio-8080-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 15:50:56.048  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-11-30 15:51:55.874  WARN 13892 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-30 15:51:56.062  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2019-11-30 15:52:56.065  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-11-30 15:53:56.077  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 15:54:56.089  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-11-30 15:55:56.091  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2019-11-30 15:55:56.733  INFO 13892 --- [http-nio-8080-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 15:55:57.528  INFO 13892 --- [http-nio-8080-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 15:56:00.563  INFO 13892 --- [http-nio-8080-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 15:56:55.887  INFO 13892 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-11-30 15:56:56.100  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2019-11-30 15:57:56.112  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-11-30 15:58:56.124  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 15:59:56.126  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2019-11-30 16:00:56.138  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 16:01:55.881  WARN 13892 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-30 16:01:56.157  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 19ms
+2019-11-30 16:02:56.163  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-11-30 16:03:56.170  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2019-11-30 16:04:56.170  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-30 16:05:46.459  INFO 13892 --- [http-nio-8080-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 16:05:56.176  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-11-30 16:06:56.180  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-11-30 16:07:56.192  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 16:08:56.198  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-11-30 16:09:07.980  INFO 13892 --- [http-nio-8080-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 16:09:35.663  INFO 13892 --- [http-nio-8080-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 16:09:36.154  INFO 13892 --- [http-nio-8080-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 16:09:39.204  INFO 13892 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 16:09:56.211  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 16:10:49.026  INFO 13892 --- [http-nio-8080-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 16:10:56.212  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-30 16:11:23.631  INFO 13892 --- [http-nio-8080-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 16:11:24.188  INFO 13892 --- [http-nio-8080-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 16:11:27.229  INFO 13892 --- [http-nio-8080-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 16:11:55.890  INFO 13892 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-11-30 16:11:55.890  WARN 13892 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-30 16:11:56.218  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2019-11-30 16:12:47.825  INFO 13892 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 16:12:48.318  INFO 13892 --- [http-nio-8080-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 16:12:51.373  INFO 13892 --- [http-nio-8080-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 16:12:56.229  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-11-30 16:13:56.234  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2019-11-30 16:14:56.247  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2019-11-30 16:15:56.253  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2019-11-30 16:15:56.284  INFO 13892 --- [http-nio-8080-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 16:15:56.707  INFO 13892 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 16:15:59.735  INFO 13892 --- [http-nio-8080-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 16:16:52.288  INFO 13892 --- [http-nio-8080-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 16:16:56.267  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2019-11-30 16:17:44.330  INFO 13892 --- [http-nio-8080-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CUSTOMER-10001/localhost:feign-customer-10001:10001 with status UP (replication=false)
+2019-11-30 16:17:56.267  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-11-30 16:18:19.905  INFO 13892 --- [http-nio-8080-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status UP (replication=false)
+2019-11-30 16:18:20.405  INFO 13892 --- [http-nio-8080-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 with status DOWN (replication=false)
+2019-11-30 16:18:23.455  INFO 13892 --- [http-nio-8080-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ZUUL-SERVER-5000/localhost:zuul-server-5000:5000 (replication=false)
+2019-11-30 16:18:56.271  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2019-11-30 16:19:56.284  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2019-11-30 16:20:56.312  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 28ms
+2019-11-30 16:21:55.909  WARN 13892 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-11-30 16:21:56.315  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2019-11-30 16:22:56.323  INFO 13892 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms

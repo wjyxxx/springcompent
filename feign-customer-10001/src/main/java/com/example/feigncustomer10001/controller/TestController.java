@@ -24,6 +24,13 @@ public class TestController {
     @Value("${server.port}")
     String port;
 
+    @Value("${spring.datasource.url}")
+    String url;
+    @GetMapping("/url")
+    public String getUrl(){
+        return url;
+    }
+
     @GetMapping("/remote/{pt}")
     public String getPort(@PathVariable String pt){
 
