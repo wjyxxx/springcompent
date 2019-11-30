@@ -10,7 +10,7 @@ logging:
   level:
     com.example.feigncustomer10001: debug
   file:
-    name: /log/feign-customer-10001.log
+    name: D:/app/document/idea_workspace/springcompent/log/feign-customer-10001.log
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/testshiro?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8

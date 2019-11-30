@@ -12,4 +12,4 @@ logging:
   level:
     com.example.feignprovider9001: debug
   file:
-    name: /log/feign-provider-9001.log
+    name: D:/app/document/idea_workspace/springcompent/log/feign-provider-9001.log
