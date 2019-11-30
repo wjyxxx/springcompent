@@ -1,5 +1,5 @@
 #feign
-#spring:
+spring:
 #  application:
 #    name: feign-customer-10001
 #eureka:

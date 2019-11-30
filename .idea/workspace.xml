@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25075df8-93f6-4ec3-a2c3-fa5042e7e64f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/eureka-server-8080.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/feign-customer-10001.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/zuul-server-5000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-file/feign-provider-9000-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/feign-provider-9000-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-file/feign-provider-9001-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/feign-provider-9001-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-file/feign-provider-9002-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/feign-provider-9002-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/config-server-4000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/eureka-server-8080.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/feign-customer-10001.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/feign-provider-9000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/zuul-server-5000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-customer-10001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,60 +34,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/feign-provider-9002-test.yml">
+        <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/feign-provider-9001-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-dev.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="264">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="133">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-file/feign-provider-9000-test.yml">
+        <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="445">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,10 +107,8 @@
         <option value="$PROJECT_DIR$/feign-provider-9000/pom.xml" />
         <option value="$PROJECT_DIR$/feign-provider-9001/pom.xml" />
         <option value="$PROJECT_DIR$/feign-provider-9002/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server-8080/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-server-8080/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign-provider-9000/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/feign-provider-9002/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/feign-provider-9001/src/main/resources/bootstrap.yml" />
@@ -152,15 +120,17 @@
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/bean/TbUser.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/feign-customer-10001/pom.xml" />
-        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" />
-        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" />
         <option value="$PROJECT_DIR$/config-file/feign-provider-9002-test.yml" />
         <option value="$PROJECT_DIR$/config-file/feign-provider-9001-test.yml" />
         <option value="$PROJECT_DIR$/config-file/feign-provider-9000-test.yml" />
-        <option value="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" />
         <option value="$PROJECT_DIR$/config-file/eureka-server-8080-test.yml" />
+        <option value="$PROJECT_DIR$/eureka-server-8080/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/feign-customer-10001/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" />
+        <option value="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" />
+        <option value="$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -220,37 +190,6 @@
             <path>
               <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-8080" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-8080" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-8080" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-8080" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,7 +360,7 @@
       <workItem from="1574928867793" duration="776000" />
       <workItem from="1574929900291" duration="12350000" />
       <workItem from="1575083786067" duration="7913000" />
-      <workItem from="1575092854571" duration="4167000" />
+      <workItem from="1575092854571" duration="6657000" />
     </task>
     <task id="LOCAL-00001" summary="first commit code">
       <created>1574918308413</created>
@@ -514,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575096671784</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修改mysql数据库">
+      <created>1575097093095</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575097093095</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40186000" />
+    <option name="totallyTimeSpent" value="42676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,10 +477,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2489895" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24009702" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -545,7 +490,7 @@
       <window_info anchor="bottom" id="Spring" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.053285968" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4995958" visible="true" weight="0.095914744" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4995958" visible="true" weight="0.18294849" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -757,13 +702,6 @@
         <state relative-caret-position="-294" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-provider-9000/src/main/resources/application.yml--">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -888,23 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/impl/TbUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -917,26 +838,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/feign-customer-10001.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-984" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-file/zuul-server-5000-test.yml">
@@ -967,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-file/eureka-server-8080-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -987,7 +884,56 @@
     <entry file="file://$PROJECT_DIR$/eureka-server-8080/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server-4000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
         </state>
       </provider>
     </entry>

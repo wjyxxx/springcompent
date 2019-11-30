@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/wjyxxx/springcompent.git
-          search-paths: /config-file
+          search-paths: D:/app/document/idea_workspace/springcompent/config-file
           default-label: master
           username: wjyxxx
           password: wjy0217xxx

@@ -17,11 +17,11 @@ import org.springframework.context.annotation.Configuration;
 /**
  * feign的消费者,eureka的发现者
  */
-@MapperScan("com.example.feigncustomer10001")
-//@Configuration
+@MapperScan("com.example.feigncustomer10001.mapper")
+@Configuration
 @EnableDiscoveryClient
 @EnableFeignClients
-//@EnableEurekaClient
+@EnableEurekaClient
 @RefreshScope
 @SpringBootApplication
 public class FeignCustomer10001Application {
