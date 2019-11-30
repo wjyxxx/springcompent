@@ -1,7 +1,10 @@
 package com.example.feigncustomer10001.bean;
 
-import java.io.Serializable;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
+@Component
 public class TbUser implements Serializable {
 
     private Integer id;

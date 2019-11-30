@@ -1,9 +1,7 @@
 #feign
-server:
-  port: 10001
-spring:
-  application:
-    name: feign-customer-10001
+#spring:
+#  application:
+#    name: feign-customer-10001
 #eureka:
 #  client:
 #    service-url:
@@ -15,7 +13,7 @@ logging:
     name: /log/feign-customer-10001.log
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/testshiro?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/testshiro?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
