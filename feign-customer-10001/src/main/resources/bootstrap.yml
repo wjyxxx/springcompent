@@ -10,3 +10,11 @@ spring:
 #        enabled: true
   profiles:
     active: test,dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/testshiro?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: root
+#    type: com.alibaba.druid.pool.DruidDataSource
+#mybatis:
+#  mapper-locations: classpath:mapper/*.mapper
