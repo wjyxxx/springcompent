@@ -1,6 +1,6 @@
 #feign
-server:
-  port: 9000
+#server:
+#  port: 9000
 spring:
   application:
     name: feign-provider-9000
