@@ -25,11 +25,3 @@ server:
 feign:
   hystrix:
     enabled: true
-#设置熔断超时时间:5s
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000
