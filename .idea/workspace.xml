@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25075df8-93f6-4ec3-a2c3-fa5042e7e64f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/impl/TbUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/impl/TbUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +27,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
+        <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/hystrix/FallbackClientFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="81">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,13 +126,13 @@
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/pom.xml" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/hystrix/FallbackClientFactory.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/FeignCustomer10001Application.java" />
         <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/impl/TbUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java" />
         <option value="$PROJECT_DIR$/config-file/zuul-server-5000-test.yml" />
-        <option value="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-file/feign-customer-10001-test.yml" />
+        <option value="$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java" />
+        <option value="$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/hystrix/FallbackClientFactory.java" />
       </list>
     </option>
   </component>
@@ -158,7 +186,47 @@
             <path>
               <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcompent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-file" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feigncustomer10001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcompent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcompent" type="462c0819:PsiDirectoryNode" />
+              <item name="feign-customer-10001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feigncustomer10001" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +401,7 @@
       <workItem from="1575092854571" duration="9288000" />
       <workItem from="1575613322562" duration="2022000" />
       <workItem from="1575616071489" duration="81000" />
-      <workItem from="1575616203220" duration="4921000" />
+      <workItem from="1575616203220" duration="6781000" />
     </task>
     <task id="LOCAL-00001" summary="first commit code">
       <created>1574918308413</created>
@@ -447,11 +515,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575624432302</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加熔断器配置">
+      <created>1575626210312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575626210312</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加熔断器配置">
+      <created>1575626486996</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575626486996</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52331000" />
+    <option name="totallyTimeSpent" value="54191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,11 +545,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25303152" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25303152" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -478,7 +560,7 @@
       <window_info anchor="bottom" id="Spring" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.053285968" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4995958" visible="true" weight="0.092362344" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4995958" visible="true" weight="0.5719361" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -554,16 +636,10 @@
     <MESSAGE value="添加mysql数据库" />
     <MESSAGE value="修改mysql数据库" />
     <MESSAGE value="添加熔断器" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加熔断器" />
+    <MESSAGE value="添加熔断器配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加熔断器配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-file/feign-provider-9000-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/resources/application.yml--">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -865,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-file/zuul-server-5000-test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -882,13 +948,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/config-file/feign-provider-9000-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="51" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="34" selection-end-column="51" />
+        <state relative-caret-position="308">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/service/FeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
           </folding>
         </state>
@@ -896,27 +992,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feign-customer-10001/src/main/java/com/example/feigncustomer10001/hystrix/FallbackClientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="81">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server-5000/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-file/feign-customer-10001-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>

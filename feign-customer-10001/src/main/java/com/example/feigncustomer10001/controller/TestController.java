@@ -33,8 +33,7 @@ public class TestController {
 
     @GetMapping("/remote/{pt}")
     public String getPort(@PathVariable String pt){
-
-        return feignService.getPort() + ">>>feign-customer-10000`port is :" +port + ">>>参数路径为:"+pt;
+        return feignService.getPort();// + ">>>feign-customer-10000`port is :" +port + ">>>参数路径为:"+pt;
     }
 
     @GetMapping("/findAll")
