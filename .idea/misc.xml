@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -21,9 +24,9 @@
       <CLASSES />
       <JAVADOC />
       <SOURCES>
-        <root url="file://$PROJECT_DIR$/../../../java/jdk/jdk" />
+        <root url="file://D:/java/jdk/jdk" />
       </SOURCES>
-      <jarDirectory url="file://$PROJECT_DIR$/../../../java/jdk/jdk" recursive="false" type="SOURCES" />
+      <jarDirectory url="file://D:/java/jdk/jdk" recursive="false" type="SOURCES" />
     </library>
   </component>
 </project>

@@ -21,3 +21,15 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
 server:
   port: 10001
+#开启服务熔断
+feign:
+  hystrix:
+    enabled: true
+#设置熔断超时时间:5s
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
